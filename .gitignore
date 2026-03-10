@@ -1,0 +1,69 @@
+# Python cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment and secrets
+*.env
+.env
+.env.local
+pipelines/*.env
+utils/*.env
+
+# Generated outputs and artifacts
+artifacts/
+feature_store/
+outputs/
+*.csv
+*.parquet
+
+# Notebooks (if not needed in version control)
+*.ipynb
+.ipynb_checkpoints/
+
+# Temporary and working data
+data/working/
+temp/
+tmp/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Project-specific
+wheels_linux/
+utils/ETA/
+utils/s3_create_upload.py
+utils/concatenate_runs_data.py
+*.xlsx
+*.xls
+main_backup.py
+
+# Ruff cache
+.ruff_cache/
+
+# Local LLM models
+models/

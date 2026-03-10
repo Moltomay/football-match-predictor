@@ -1,0 +1,14 @@
+streamlit
+requests
+beautifulsoup4
+langchain
+python-dotenv
+llama-cpp-python
+pandas
+fastapi
+uvicorn[standard]
+pydantic
+pytest
+playwright
+tiktoken
+tavily-python
